@@ -1,0 +1,37 @@
+.chain {
+  color: #e0596b;
+}
+
+.chain:hover {
+  text-decoration: none;
+}
+
+.Item {
+  background-color: #eeec6a;
+  width: 250px;
+  height: 351px;
+  margin: 5px;
+  display: inline-block;
+  position: relative;
+}
+
+.Item:hover {
+  box-shadow: 0px 1px 10px 3px rgba(171, 136, 136, 0.69);
+  -webkit-box-shadow: 0px 1px 10px 3px rgba(171, 136, 136, 0.69);
+  -moz-box-shadow: 0px 1px 10px 3px rgba(171, 136, 136, 0.69);
+  border: gray solid 2px;
+}
+
+.disabled {
+  opacity: 0.5;
+}
+
+.avoid-clicks {
+  pointer-events: none;
+}
+
+.heart {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
